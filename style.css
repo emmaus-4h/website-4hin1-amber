@@ -120,9 +120,13 @@ nav li a.active {
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
+
+}
 .item-plaatje {
+  display:block;
   width: 250px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  margin:auto;
 }
 
 .item-tekst {
