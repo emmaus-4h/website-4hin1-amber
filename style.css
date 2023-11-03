@@ -122,8 +122,24 @@ nav li a.active {
 
 
 }
+
+
+
+}
+.britt        {
+display:block;
+  width: 250px;
+  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  margin:auto;
+}
 .item-plaatje {
-  display:block;
+ display:block;
+  width: 250px;
+  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  margin:auto;
+}
+.afbeelding {
+display:block;
   width: 250px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
   margin:auto;
