@@ -121,41 +121,24 @@ nav li a.active {
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
 
-}
-
-
-
-}
-.britt        {
-display:block;
-  width: 250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
-  margin:auto;
-}
 .item-plaatje {
+  margin:15px;
+  border:10px solid #ec79cd;
+  background-color: pink;
+  padding:15px;
  display:block;
-  width: 250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
-  margin:auto;
-}
-.afbeelding {
-display:block;
-  width: 250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
-  margin:auto;
-}
+  width: 200px;
+  float:left;
+  aspect-ratio: 1;
+  }
 
 .item-tekst {
 
   margin:auto;
   width: 450px;
-              
+            }
 
-  
-  
-  
 
-}
 
 /************************* SUBPAGINA *************************/
 
