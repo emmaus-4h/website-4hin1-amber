@@ -22,8 +22,9 @@
   margin: 0px;                    /* standaard marge 0 pixels */
 }
 
-html, body {                      /* geldt voor html en body */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+html, body {                      
+                  /* geldt voor html en body */
+  background-color:  #ece9eb;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -133,12 +134,12 @@ nav li a.active {
   }
 
 .item-tekst {
-
   margin:auto;
   width: 450px;
             }
-
-
+.hoihoi {
+  color:  #f99fd3;
+}
 
 /************************* SUBPAGINA *************************/
 
