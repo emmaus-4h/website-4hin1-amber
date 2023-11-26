@@ -92,8 +92,14 @@ nav ul {                        /* <ul> die child is van <nav> */
   padding: 0;
   background-color: #f9dcea;
   overflow: hidden;
+  animation-name:example;
+  animation-duration:6s;
+  animation-iteration-count:infinite;
 }
-
+@keyframes example {
+  from { background-color:#f9dcea;}
+  to { background-color: #ec79cd;}
+}
 nav ul li {                     /* <li> die child is van <ul> die op zijn beurt child is van <nav> */
   float: left;
 }
@@ -140,6 +146,13 @@ nav li a.active {
 .hoihoi {
   color:  #f99fd3;
 }
+#achtergrondchampagne {
+  
+}
+.middel {
+  border-radius:50%;
+}
+
 
 /************************* SUBPAGINA *************************/
 
