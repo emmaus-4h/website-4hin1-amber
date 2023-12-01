@@ -90,10 +90,11 @@ nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
   padding: 0;
+  border-radius: 50%;
   background-color: #f9dcea;
   overflow: hidden;
   animation-name:example;
-  animation-duration:6s;
+  animation-duration:4s;
   animation-iteration-count:infinite;
 }
 @keyframes example {
@@ -131,6 +132,7 @@ nav li a.active {
 .item-plaatje {
   margin:15px;
   border:10px solid #ec79cd;
+  border-radius: 5%;
   background-color: pink;
   padding:15px;
  display:block;
@@ -144,7 +146,7 @@ nav li a.active {
   width: 450px;
             }
 .hoihoi {
-  color:  #f99fd3;
+  color:  #9d1565;
 }
 #achtergrondchampagne {
   
@@ -153,7 +155,16 @@ nav li a.active {
   border-radius:50%;
 }
 
-
+#glitter {
+  margin:5px;
+  border:5px 
+  background-color: pink;
+  padding:10px;
+  display:block;
+  width:200px;
+  float:right;
+  aspect-ratio: 1;
+}
 /************************* SUBPAGINA *************************/
 
 /* Indeling en opmaak voor subpagina */
