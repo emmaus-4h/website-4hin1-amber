@@ -148,9 +148,7 @@ nav li a.active {
 .hoihoi {
   color: #800068;
 }
-#achtergrondchampagne {
-  
-}
+
 .middel {
   border-radius:50%;
 }
@@ -193,13 +191,13 @@ nav li a.active {
   line-height: 3.0em;
   }
 .grwm {
-  margin:15px;
-  border:10px solid #ec79cd;
+  margin:5px;
+  border:5px solid #ec79cd;
   border-radius: 5%;
   background-color: pink;
-  padding:10px;
+  padding:5px;
  display:block;
-  width: 150px;
+  width: 80px;
   float:right;
   aspect-ratio: 1;
 }
