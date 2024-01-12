@@ -189,6 +189,26 @@ body {
   float:right;
   aspect-ratio: 1;
 }
+.babes {
+  margin:10px;
+  border:10px;
+  background-color: pink;
+  padding:15px;
+  display:block;
+  width:210px;
+  float:right;
+  aspect-ratio: 1;
+}
+.cuties {
+  margin:10px;
+  border:10px;
+  background-color: pink;
+  padding:15px;
+  display:block;
+  width:210px;
+  float:left;
+  aspect-ratio:1;
+}
 .blokitemtekst {
   background-color: #d26abf;
   font-family: fantasy;
@@ -231,6 +251,11 @@ body {
   text-shadow: 2px 2px 5px #6b0044;
   color:white;
 }
+.bliep {
+  color:#6b0044;
+  float:right;
+
+
 /************************* SUBPAGINA *************************/
 
 /* Indeling en opmaak voor subpagina */
