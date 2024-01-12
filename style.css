@@ -130,6 +130,11 @@ nav li a.active {
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
 
+body {
+  background-image: url("afbeeldingen/Meetmetherehoofd.png");
+  background-size cover;
+}
+
 .item-plaatje {
   margin:15px;
   border:10px solid #ec79cd;
@@ -201,6 +206,30 @@ nav li a.active {
   width: 80px;
   float:right;
   aspect-ratio: 1;
+}
+.teksten {
+  color:#ff00bb ;
+}
+.blokitem {
+  background-color: #ffc7f5;
+  font-family: fantasy;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 3.0em;
+  }
+.heelleuk {
+  color:#db1a9e ;
+}
+.blokitem {
+  background-color: #ffc7f5;
+  font-family: cursive;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 2.0em;
+  }
+.blablie {
+  text-shadow: 2px 2px 5px #6b0044;
+  color:white;
 }
 /************************* SUBPAGINA *************************/
 
