@@ -95,7 +95,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   background-color: #f9dcea;
   overflow: hidden;
   animation-name:example;
-  animation-duration:4s;
+  animation-duration:3s;
   animation-iteration-count:infinite;
 }
 @keyframes example {
@@ -210,7 +210,7 @@ body {
   aspect-ratio:1;
 }
 .blokitemtekst {
-  background-color: #d26abf;
+  background-color: #997593;
   font-family: fantasy;
   font-size: 13px;
   font-style: italic;
@@ -236,6 +236,14 @@ body {
   font-size: 13px;
   font-style: italic;
   line-height: 3.0em;
+    animation-name:example;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+  }
+  @keyframes example {
+    from { background-color:#f9dcea;}
+    to { background-color: #ec79cd;}
+  }
   }
 .heelleuk {
   color:#db1a9e ;
@@ -252,10 +260,27 @@ body {
   color:white;
 }
 .bliep {
-  color:#6b0044;
+  color:#e70896;
   float:right;
-
-
+.barbie {
+  tekst-shadow: 2px 2px 5px #a700bd004
+  color:black;
+}
+  .boem {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #f9dcea;
+    overflow: hidden;
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+  }
+  @keyframes example {
+    from { background-color:#f9dcea;}
+    to { background-color: #ec79cd;}
+  }
 /************************* SUBPAGINA *************************/
 
 /* Indeling en opmaak voor subpagina */
